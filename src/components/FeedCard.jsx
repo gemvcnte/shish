@@ -1,7 +1,7 @@
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "./ui/card";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import { IconHeart, IconMessage, IconShare } from "@tabler/icons-react";
 
 const FeedCard = ({ announcement }) => {

@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useCookies } from "react-cookie";
 import { useNavigate } from "react-router-dom";
-import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 export default function AdminNav() {
   const [currentPath, setCurrentPath] = useState(""); // Initialize state for currentPath
   const [cookies, removeCookie] = useCookies([]);

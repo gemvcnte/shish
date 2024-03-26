@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "./ui/dropdown-menu";
 import Home from "@/pages/Home";
 import { Separator } from "./ui/separator";
 
